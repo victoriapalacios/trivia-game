@@ -1,0 +1,52 @@
+body {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, button {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  color: #4B4B4B;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+p {
+  margin-bottom: 10px;
+  line-height: 20px
+}
+
+.game {
+  text-align: center;
+}
+
+.start-button {
+  padding: 15px 30px;
+  border: 1px solid #4B4B4B;
+}
+
+.start-button:hover, .first-answer:hover, .answer:hover {
+  background-color: #4B4B4B;
+  transition-duration: .5s;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.first-answer, .answer {
+  cursor: pointer;
+  padding: 15px 30px;
+  border: 1px solid #4B4B4B;
+  margin: 20px;
+}
