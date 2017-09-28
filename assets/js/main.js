@@ -106,7 +106,7 @@ function countdown() {
 }
 
 function finalScreen() {
-	gameHTML = "<p>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p>All done, here's how you did!" + "</p>" + "<p>Correct Answers: " + correct + "</p>" + "<p>Wrong Answers: " + wrong + "</p>" + "<p>Unanswered: " + unanswered + "</p>" + "<a class='reset-button' href='#' role='button'>Reset The Quiz!</a>";
+	gameHTML = "<p>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p>Here is your score!" + "</p>" + "<p>Correct Answers: " + correct + "</p>" + "<p>Wrong Answers: " + wrong + "</p>" + "<p>Unanswered: " + unanswered + "</p>" + "<a class='reset-button' href='#' role='button'>Reset The Quiz!</a>";
 	$(".game").html(gameHTML);
 }
 
